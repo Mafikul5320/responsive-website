@@ -100,10 +100,56 @@ width: 537px;
 .komola{
     color: #FF900E;
 }
+.ar-img{
+    margin-left: 100px;
+}
+.ar-img img{
+    width: 100%;
+}
+.enjoy h2{
+    font-size: 4rem;
+    border-left: 7px solid #FF900E;
+    margin-right: 50px;
+    padding-left: 25px;
+}
+.enjoy p{
+    color: #727272;
+    margin-right: 50px;
+    font-size: 1rem;
+}
+.card{
+    padding: 40px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 36px;
+    margin-right: 50px;
+}
+.part-3{
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.buttn{
+    padding: 45px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+.txt{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.size{
+    font-size: 1.5rem;
+}
 
 @media screen and (max-width:572px) {
     .menu-ber,
-    .display-flex
+    .display-flex,
+    .part-3
     {
         flex-direction: column;
     }
@@ -124,5 +170,13 @@ width: 537px;
     }
     .img-container img{
         width: auto;
+    }
+    .ar-img{
+        margin-left: 0;
+    }
+    .buttn{
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
     }
 }
